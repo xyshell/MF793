@@ -1,5 +1,5 @@
 ### ---problem 4---
- 
+
 tbl_funds = read.csv('funds-1584g-mon.csv')
 tbl_factors = read.csv('Fama_French_Three_Factors_Monthly.CSV')
 tbl_mkt = data.frame(cbind(tbl_factors[1], tbl_factors[2] + tbl_factors[5])) / 100
